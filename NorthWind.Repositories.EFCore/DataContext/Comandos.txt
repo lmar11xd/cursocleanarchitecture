@@ -1,0 +1,5 @@
+﻿Consola Administrador de paquetes
+-----------------------------------
+
+add-migration InitialCreate -p NorthWind.Repositories.EFCore -c NorthWindContext -o Migrations -s NorthWind.Repositories.EFCore
+update-database -p NorthWind.Repositories.EFCore -s NorthWind.Repositories.EFCore
